@@ -59,15 +59,6 @@ export const Hero = () => {
                 Peça um Orçamento Gratuito
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
-              
-              <Button 
-                variant="outline" 
-                size="lg"
-                onClick={() => document.getElementById('galeria')?.scrollIntoView({ behavior: 'smooth' })}
-                className="text-lg px-8 py-4 h-auto border-white text-white hover:bg-white hover:text-brown-dark"
-              >
-                Ver Nossos Projetos
-              </Button>
             </div>
           </div>
         </div>
